@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace remtcarboris
+{
+    public class CarProject
+    {
+	<PropertyGroup>
+	<TargetFramework>net5.0</TargetFramework>
+	<AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+	<AspNetCoreModuleName>AspNetCoreModuleV2</AspNetCoreModuleName>
+</PropertyGroup>
+
+<ItemGroup>
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="5.0.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />			
+    }
+}

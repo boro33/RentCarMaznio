@@ -1,0 +1,46 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace remtcarboris.Views.Cars
+{
+    public class Index
+    {
+<h2>Available Cars</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Description</th>
+            <th>Rental Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Id</td>
+                <td>@car.Make</td>
+                <td>@car.Model</td>
+                <td>@car.Description</td>
+                <td>@car.RentalPrice</td>
+                <td>
+                    @if (car.IsAvailable)
+                    {
+                        <a asp-action="Rent" asp-route-id="@car.Id">Rent</a>
+                    }
+                    else
+                    {
+                        <span>Rented</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+    }
+}

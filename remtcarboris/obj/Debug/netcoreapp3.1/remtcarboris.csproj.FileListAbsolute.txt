@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.AssemblyInfo.cs
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\remtcarboris\remtcarboris\obj\Debug\netcoreapp3.1\remtcarboris.RazorAssemblyInfo.cs
